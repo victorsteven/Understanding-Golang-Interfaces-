@@ -6,6 +6,11 @@ import (
 	"strconv"
 )
 
+// One example of an interface type frome the standard library is the fmt.Stringer interface
+// type Stringer intercace {
+// String() string
+// }
+
 type Book struct {
 	Title  string
 	Author string
